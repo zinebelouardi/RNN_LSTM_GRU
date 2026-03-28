@@ -13,7 +13,7 @@ avantages et limitations respectifs.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source** : Yahoo Finance via `yfinance`
 - **Ticker** : AAPL (Apple Inc.)
@@ -22,7 +22,7 @@ avantages et limitations respectifs.
 - **Variable cible** : Prix de clôture (`Close`)
 
 ---
-## 📊 Résultats comparatifs
+##  Résultats comparatifs
 
 | Modèle | Paramètres | Val Loss finale | Vanishing Gradient | Vitesse |
 |--------|-----------|-----------------|-------------------|---------|
@@ -33,7 +33,7 @@ avantages et limitations respectifs.
 | GRU (1 couche) | 8 001 | 0.0072 |  Non |  Rapide |
 | GRU (2 couches) | ~23 000 | 0.0061 |  Non |  Moyen |
 
-> 🏆 **Meilleur compromis : GRU (1 couche)** — Val Loss de 0.0072 avec seulement
+>  **Meilleur compromis : GRU (1 couche)** — Val Loss de 0.0072 avec seulement
 > 8 001 paramètres, sans vanishing gradient et avec une vitesse d'entraînement rapide.
 
 
