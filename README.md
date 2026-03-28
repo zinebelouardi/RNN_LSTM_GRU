@@ -11,15 +11,7 @@ Explorer et comparer les performances des modèles RNN, LSTM et GRU sur une tâc
 de prédiction de séries temporelles financières, en mettant en évidence leurs
 avantages et limitations respectifs.
 
----
 
-##  Dataset
-
-- **Source** : Yahoo Finance via `yfinance`
-- **Ticker** : AAPL (Apple Inc.)
-- **Période** : 01/01/2010 — 31/12/2023
-- **Fréquence** : Quotidienne
-- **Variable cible** : Prix de clôture (`Close`)
 
 ---
 ##  Résultats comparatifs
