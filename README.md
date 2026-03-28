@@ -28,37 +28,16 @@ avantages et limitations respectifs.
 >  **Meilleur compromis : GRU (1 couche)** — Val Loss de 0.0072 avec seulement
 > 8 001 paramètres, sans vanishing gradient et avec une vitesse d'entraînement rapide.
 
-
----
-
-##  Technologies utilisées
-
-- Python 3.12
-- TensorFlow / Keras
-- yfinance
-- scikit-learn
-- Matplotlib
-- NumPy / Pandas
-
 ---
 
 ##  Lancer le projet
 ```bash
 pip install tensorflow yfinance scikit-learn matplotlib numpy pandas
 ```
-
-Ouvrir le notebook :
-```bash
-jupyter notebook RNN_LSTM_GRU.ipynb
-```
-
 Ou directement sur Google Colab :
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](VOTRE_LIEN_COLAB)
 
 ---
 
-##  Auteure
-
-**Zineb El Ouardi** — Étudiante M2 en Intelligence Artificielle  
 
